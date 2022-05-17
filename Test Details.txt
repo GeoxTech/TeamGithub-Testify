@@ -1,0 +1,54 @@
+MYSQL Password: root
+
+
+Test Data
+
+First name Alfred
+Last name  is Miller
+email millerenna41@gmail.com
+Phone number is 08112514424
+Password is Nkem12345
+
+
+Clicking on the Privacy Policy link from the sign up form throws error 
+
+STEPS TO RE-PRODUCE BUG
+1. Goto OurPass | One-Click Checkout
+2. Click on Get started and navigate to Sign up as a buyer
+3. Clicking on the Privacy Policy link throws error 
+4. Observe error message below.
+
+
+"accessToken": "322bb0268137a03dd17d2f0dd44c8746446aef8eef284ca349daa7c59ccab168"
+
+
+
+[9:22 AM] Stanley George
+
+
+
+OrderID :sI9AbQKJIIEmeMcy1DEcA
+OrderID :fRjD9sE6jLT7_Mb78WmDu
+
+OrderID :auIdahA7SppQfxLJSpRxf
+OrderID :OGFIwxi9PW88ceFTD6jLD
+OrderID :YQQCXOqqC0OCebYNDi31y (Used )
+
+
+Jmeter APIS
+https://restful-booker.herokuapp.com/
+
+
+GIT COMMAND
+- Command to get all configuration: git config --list --show-origin 
+- Command to configure username: git config --global user.name "yourUsernameforGithub" 
+- Command to configure username: git config --global user.email "yourEmailAddressforGithub" 
+- To clone a repository: git clone - url of repository, do + git add . and press enter key 
+Note: "The git add command adds a change in the working directory to the staging area.
+
+- To change Directory path : cd \Users\gibbs\Documents
+- Re-clone in directory path : git clone https://github.com/GeoxTech/TeamGithub-Testify
+- To get directory path to folders : cd
+
+
+
