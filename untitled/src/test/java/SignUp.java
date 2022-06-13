@@ -30,8 +30,8 @@ public class SignUp {
 
         //6. Register New User Email and Password
 
-        driver.findElement(By.id("user_username")).sendKeys("george44");
-        driver.findElement(By.id("user_email")).sendKeys("george44@mailinator.com");
+        driver.findElement(By.id("user_username")).sendKeys("george45");
+        driver.findElement(By.id("user_email")).sendKeys("george45@mailinator.com");
         driver.findElement(By.id("user_password")).sendKeys("password@123");
 
         Thread.sleep(5000);

@@ -6,8 +6,8 @@ import org.testng.annotations.Test;
 public class LoginTest {
 
 
-    @Test
-    public void start() throws InterruptedException {
+   @Test
+   public void start() throws InterruptedException {
         //Locate chromedriver
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
 
@@ -26,7 +26,6 @@ public class LoginTest {
         Thread.sleep(5000);
         driver.findElement(By.xpath("/html/body/div[2]/div/a[1]")).click();
 
-        //5. Wait global for page to fully loading
 
         //6. Register New User Email and Password
         Thread.sleep(5000);
@@ -46,7 +45,6 @@ public class LoginTest {
 
         //12. Wait global for page to fully loading
         Thread.sleep(5000);
-
 
         //Quit the browser
         driver.quit();
